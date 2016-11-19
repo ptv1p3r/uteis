@@ -1,9 +1,11 @@
 package driver;
 
 import pt.ismat.poo.proldan.fichas.classeuteis.Concatenador;
+import pt.ismat.poo.proldan.fichas.classeuteis.DataBasica;
 import pt.ismat.poo.proldan.fichas.classeuteis.Inteiro;
 
 import java.util.ArrayList;
+import java.util.GregorianCalendar;
 
 /**
  * @author Pedro Roldan on 18-11-2016.
@@ -37,6 +39,12 @@ public class driver {
         System.out.print("w: " + w + "\n");
 
         System.out.print("concatenador: " + new Concatenador(arrInt) + "\n");
+
+
+        DataBasica db = new DataBasica(28,2,1975);
+        System.out.print("data: " + db.getAsString() + "\n");
+        System.out.print("data dia seguinte: " + db.nextDay() + "\n");
+
     }
 
 }
