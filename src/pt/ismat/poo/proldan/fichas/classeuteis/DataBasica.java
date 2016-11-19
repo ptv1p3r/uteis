@@ -41,6 +41,10 @@ public class DataBasica {
         return sdf.format(this.dataCorrente);
     }
 
+    /**
+     * retorna a data do dia seguinte em string formatada
+     * @return String
+     */
     public String nextDay(){
         Locale lc = new Locale("pt", "PT");
         GregorianCalendar gc = new GregorianCalendar();

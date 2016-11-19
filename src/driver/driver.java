@@ -5,7 +5,6 @@ import pt.ismat.poo.proldan.fichas.classeuteis.DataBasica;
 import pt.ismat.poo.proldan.fichas.classeuteis.Inteiro;
 
 import java.util.ArrayList;
-import java.util.GregorianCalendar;
 
 /**
  * @author Pedro Roldan on 18-11-2016.
